@@ -10,9 +10,9 @@ import java.util.Scanner;
             // Input words
             System.out.println("Enter the words (one word per line, type 'done' when finished):");
             String word;
-            while (!(word = scanner.nextLine()).equalsIgnoreCase("done")) {
-                // Count frequency of each word
-                wordFrequencyMap.put(word, wordFrequencyMap.getOrDefault(word, 0) + 1);
+            while (!(word = scanner.nextLine()).equalsIgnoreCase("done")) {    
+            // Count frequency of each word
+            wordFrequencyMap.put(word, wordFrequencyMap.getOrDefault(word, 0) + 1);
             }
 
             // Display word frequency
